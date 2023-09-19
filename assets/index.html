@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast message</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="toast">
+        <!-- Success -->
+        <!-- <div class="toast toast--success">
+            <div class="toast__icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="toast__body">
+                <div class="toast__title">Success!</div>
+                <p class="toast__msg">Any one with access can view your invited visitors.</p>
+            </div>
+            <div class="toast__close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div> -->
+    </div>
+
+    <div>
+        <div onclick="showSuccessToast();" class="btn btn--success">Show success toast</div>
+        <div onclick="showInfoToast();" class="btn btn--info">Show info toast</div>
+        <div onclick="showWarningToast();" class="btn btn--warn">Show error toast</div>
+        <div onclick="showErrorToast();" class="btn btn--error">Show error toast</div>
+    </div>
+    <!-- Info -->
+    <!-- <div class="toast toast--info">
+        <div class="toast__icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="toast__body">
+            <div class="toast__title">Info!</div>
+            <p class="toast__msg">Any one with access can view your invited visitors.</p>
+        </div>
+        <div class="toast__close">
+            <i class="fas fa-times"></i>
+        </div>
+    </div> -->
+
+    <!-- Warning -->
+    <!-- <div class="toast toast--warning">
+        <div class="toast__icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="toast__body">
+            <div class="toast__title">Warning!</div>
+            <p class="toast__msg">Any one with access can view your invited visitors.</p>
+        </div>
+        <div class="toast__close">
+            <i class="fas fa-times"></i>
+        </div>
+    </div> -->
+
+    <!-- Error -->
+    <!-- <div class="toast  toast--error">
+        <div class="toast__icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="toast__body">
+            <div class="toast__title">Error!</div>
+            <p class="toast__msg">Any one with access can view your invited visitors.</p>
+        </div>
+        <div class="toast__close">
+            <i class="fas fa-times"></i>
+        </div>
+    </div> -->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
